@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 5px;
+    display: grid;
+}
+
+.stripes {
+    height: 235px;
+}
+
+#saffron {
+    background-color: rgb(255, 159, 15);
+}
+
+#white {
+    background-color: rgb(255, 255, 255);
+}
+
+#outsidechakra {
+    border: 18px solid rgb(4, 17, 133);
+    width: 208px;
+    height: 208px;
+    position: relative;
+    border-radius: 50%;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 1.5px;
+}
+
+.spokes {
+    right: 13.5em;
+    align-content: center;
+    border-radius: 50%;
+    background-color: rgb(4, 17, 133);
+    justify-content: center;
+    position: absolute;
+    padding-top: 7em;
+}
+
+#spoke0 {
+    content: "";
+    margin: auto;
+    position: absolute;
+    width: 14em;
+    border: 0.5px solid navy;
+    transform: rotate(-95deg);
+}
+
+#spoke1 {
+    content: "";
+    margin: auto;
+    position: absolute;
+    width: 14em;
+    border: 0.5px solid navy;
+    transform: rotate(5deg);
+}
+
+#spoke2 {
+    content: "";
+    position: absolute;
+    width: 14em;
+    border: 0.5px solid navy;
+    transform: rotate(15deg);
+}
+
+#spoke3 {
+    content: "";
+    position: absolute;
+    width: 14em;
+    border: 0.5px solid navy;
+    transform: rotate(30deg);
+}
+
+#spoke4 {
+    content: "";
+    position: absolute;
+    width: 14em;
+    border: 0.5px solid navy;
+    transform: rotate(45deg);
+}
+
+#spoke5 {
+    content: "";
+    position: absolute;
+    width: 14em;
+    border: 0.5px solid navy;
+    transform: rotate(55deg);
+}
+
+#spoke6 {
+    content: "";
+    position: absolute;
+    width: 14em;
+    border: 0.5px solid navy;
+    transform: rotate(70deg);
+}
+
+#spoke7 {
+    content: "";
+    position: absolute;
+    width: 14em;
+    border: 0.5px solid navy;
+    transform: rotate(85deg);
+}
+
+#spoke7 {
+    content: "";
+    position: absolute;
+    width: 14em;
+    border: 0.5px solid navy;
+    transform: rotate(100deg);
+}
+
+#spoke8 {
+    content: "";
+    position: absolute;
+    width: 14em;
+    border: 0.5px solid navy;
+    transform: rotate(115deg);
+}
+
+#spoke9 {
+    content: "";
+    position: absolute;
+    width: 14em;
+    border: 0.5px solid navy;
+    transform: rotate(130deg);
+}
+
+#spoke10 {
+    content: "";
+    position: absolute;
+    width: 14em;
+    border: 0.5px solid navy;
+    transform: rotate(145deg);
+}
+
+#spoke11 {
+    content: "";
+    position: absolute;
+    width: 14em;
+    border: 0.5px solid navy;
+    transform: rotate(160deg);
+}
+
+#spoke12 {
+    content: "";
+    position: absolute;
+    width: 14em;
+    border: 0.5px solid navy;
+    transform: rotate(175deg);
+}
+
+#outsidechakra {
+    animation: chakra-spin infinite 5s linear;
+}
+@keyframes chakra-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+#green {
+    background-color: rgb(64, 185, 8);
+}
